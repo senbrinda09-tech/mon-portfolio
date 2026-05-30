@@ -24,6 +24,19 @@
             color: #333;
             border-radius: 10px;
         }
+        .grille {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.carte {
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  border: 2px solid #333;
+}
         h2 {
             color: red;
         }
@@ -64,12 +77,20 @@ Je travaille actuellement sur plusieurs projets académiques et personnels afin 
 </section>
 <section>
     <h2>Compétences</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS : en cours de développement</li>
-        <li>JavaScript : en cours de développement</li>
-        <li>FIGMA : en cours de developpement</li>
-    </ul>
+    <div class="grille">
+    <div class="carte"><h3>CSS</h3>
+    <p>En cours de développement</p>
+    </div>
+    <div class="carte"><h3>HTML</h3>
+    <p>En cours de développement</p>
+    </div>
+    <div class="carte"><h3>FIGMA</h3>
+    <p>En cours de développement</p>
+    </div>
+    <div class="carte"><h3>JavaScript</h3>
+    <p>En cours de développement</p>
+    </div>
+  </div>
 </section>
 <section>
     <h2>Objectifs</h2>
